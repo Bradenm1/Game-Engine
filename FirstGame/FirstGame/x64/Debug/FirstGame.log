@@ -1,0 +1,33 @@
+﻿  AssetManager.cpp
+  BoxColliderComponent.cpp
+  ControlMovementComponent.cpp
+  PhysicsComponent.cpp
+  PositionComponent.cpp
+  SpriteComponent.cpp
+C:\Users\brade\Desktop\C++ Projects\FirstGame\FirstGame\Src\EntityComponentSystem\Components\SpriteComponent.cpp(54,22): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\brade\Desktop\C++ Projects\FirstGame\FirstGame\Src\EntityComponentSystem\Components\SpriteComponent.cpp(55,22): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Entity.cpp
+  EntityManager.cpp
+  Game.cpp
+  SpriteSheet.cpp
+C:\Users\brade\Desktop\C++ Projects\FirstGame\FirstGame\Src\SpriteSheet.cpp(20,21): warning C4150: deletion of pointer to incomplete type 'SDL_Texture'; no destructor called
+C:\Users\brade\Desktop\C++ Projects\SDL2-2.0.12\include\SDL_render.h(138): message : see declaration of 'SDL_Texture'
+  TextureManager.cpp
+  TileMap.cpp
+C:\Users\brade\Desktop\C++ Projects\FirstGame\FirstGame\Src\EntityComponentSystem\Entity.h(74,39): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\brade\Desktop\C++ Projects\FirstGame\FirstGame\Src\TileMap.cpp(36): message : see reference to function template instantiation 'T &Entity::AddComponent<PositionComponent,int,int>(int &&,int &&)' being compiled
+          with
+          [
+              T=PositionComponent
+          ]
+  Viewport.cpp
+C:\Users\brade\Desktop\C++ Projects\FirstGame\FirstGame\Src\Viewport.cpp(17,44): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\brade\Desktop\C++ Projects\FirstGame\FirstGame\Src\Viewport.cpp(18,44): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  main.cpp
+C:\Users\brade\Desktop\C++ Projects\FirstGame\FirstGame\Src\main.cpp(28,30): warning C4244: '=': conversion from 'Uint64' to 'int', possible loss of data
+  Generating Code...
+  FirstGame.vcxproj -> C:\Users\brade\Desktop\C++ Projects\FirstGame\x64\Debug\FirstGame.exe
